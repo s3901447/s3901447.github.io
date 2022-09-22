@@ -1,7 +1,82 @@
-body {
-  background-color: lightblue;
+* {
+    font-family: 'Graduate', cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  font-size: 30px;
+}
+
+.navA {
+  display: inline-block;
+  background: #FF69B4;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 10px 0;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 3px 3px 8px -2px black;
+}
+
+#mainDiv {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  outline: 10px solid black;
+  margin: 0px 400px 0px 400px;
+  background-color: white;
+}
+
+.flexContainer {
+  display: flex;
+  position: relative;
+  top: 20px;
+  outline: 10px solid black;
+  margin: 0px 100px 0px 100px;
+  background-color: white;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+#jobImg {
+  width: 50%;
+
+}
+
+#meImg {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personalityImg {
+  width: 100%;
 }
 
 p {
-  color: red;
+  text-align: left;
+}
+
+body {
+  background-image: url("images/untitled.gif");
+  background-size: cover;
 }
